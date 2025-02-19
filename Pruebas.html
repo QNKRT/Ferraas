@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog de Ferras</title>
+  <style>
+    /* Aqui va el código CSS */
+    *{
+      box-sizing: border-box;
+    }body{
+      padding: 0;
+      margin:0;
+      color:azure;
+    }
+    header{
+        background: #000;
+        height: 100px;
+        padding:30px;
+    }
+    nav{
+      background: #000;
+      height: 80px;
+      padding: 5px;
+    }
+    a{
+      color: azure;
+    }
+    main{
+      background: #474747;
+      padding: 30px;
+      position:relative;
+    }
+    section{
+      width: 70%;
+    }
+    aside{
+      background: #000;
+      width: 30%;
+      position: absolute;
+      right: 0;
+      top: 50px;
+      padding: 30px;
+    }
+    article{
+      background: #000;
+      padding: 30px;
+      margin: 20px;
+    }
+    footer{
+      background: #00e1ff;
+      padding: 30px;
+      height: 120px;
+      width: 100%;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Encabezado con el título del blog -->
+  <header>
+    <h1>Blog de Ferras</h1>
+  </header>
+
+  <!-- Menú de navegación principal -->
+  <nav>
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Acerca de</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+  <!-- Sección para un artículo o post destacado -->
+  <section>
+    <article>
+      <h2>Post Destacado</h2>
+      <p>
+        Aquí podrías mostrar un artículo especial o destacado, 
+        con una imagen grande o un resumen de lo más reciente.
+      </p>
+    </article>
+
+    <article>
+        <h2>Título del Artículo 1</h2>
+        <p>
+          Este es un ejemplo de contenido para tu primer artículo. 
+          Puedes añadir más párrafos, imágenes, etc.
+        </p>
+      </article>
+  
+      <article>
+        <h2>Título del Artículo 2</h2>
+        <p>
+          Aquí otro artículo. La idea es que cada <code>&lt;article&gt;</code> 
+          represente una entrada de blog.
+        </p>
+      </article>
+  </section>
+
+  <!-- Barra lateral (sidebar) para widgets, enlaces, etc. -->
+  <aside>
+    <h3>Acerca de mí</h3>
+    <p>
+      Un breve texto sobre ti o el blog, tus redes sociales, o algo que quieras destacar.
+    </p>
+    <h3>Categorías</h3>
+    <ul>
+      <li><a href="#">Tecnología</a></li>
+      <li><a href="#">Programación</a></li>
+      <li><a href="#">HTML/CSS</a></li>
+    </ul>
+  </aside>
+</main>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2025 Blog de Ferras - Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
